@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagem dinamica</title>
+</head>
+<body>
+    <h1>testando imagem</h1>
+    <p>um teste</p>
+
+    <picture>
+        <source media="(max-width: 730px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1030px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>testando audio</h1>
+    <p>teste 1</p>
+    <audio src="midia/Gayatri-Mantra.mp3" controls></audio>
+</body>
+</html>
